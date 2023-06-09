@@ -1,0 +1,101 @@
+/* grouping font family */
+h1,
+h2,
+h3,
+h4,
+li,
+td,
+th,
+a,
+p {
+  font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: purple;
+}
+
+nav a {
+  display: inline;
+  padding: 5px;
+  /* other styling */
+  border-radius: 2px;
+}
+
+head {
+  font-family: Roboto;
+}
+
+header {
+  font-family: Roboto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  font-style: italic;
+  font-size: 18px;
+}
+
+td {
+  font-size: 18px;
+}
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  background-color: antiquewhite;
+  border: 1px;
+}
+
+form {
+  font-size: 20px;
+}
+
+button {
+  font-weight: 100;
+  font-style: oblique;
+}
+
+/* styling links */
+a:link {
+  color: brown;
+}
+
+a:hover {
+  color: chocolate;
+  font-weight: bold;
+  text-decoration: underline dotted orange;
+}
+
+.service p,
+form {
+  font-weight: bold;
+  color: lightslategray;
+  background-color: antiquewhite;
+}
+
+#AOP {
+  color: darkviolet;
+  font-family: Roboto;
+  text-shadow: 2px 2px grey;
+}
+
+.main-header {
+  background-color: antiquewhite;
+}
+
+.primary-header {
+  background-color: antiquewhite;
+}
